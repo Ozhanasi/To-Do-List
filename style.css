@@ -1,0 +1,28 @@
+body{
+    background: rgb(20,21,230);
+    background: radial-gradient(circle, rgba(20,21,230,1) 23%, rgba(2,126,138,1) 92%);  
+}
+
+.container{
+    max-width: 400px;
+}
+
+input[type=text],
+input[type=text]:focus{
+
+    color:#fff;
+    border: none;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.todos li{
+    background: #fdcb6e;
+}
+
+.delete{
+    cursor:pointer;
+}
+
+.filtered{
+    display: none !important;
+}
